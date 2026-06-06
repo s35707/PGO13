@@ -19,6 +19,6 @@ public class CameraKit extends Equipment{
 
     @Override
     public String getDisplayText() {
-        return super.getDisplayText()+" lens count: "+this.lensCount;
+        return super.getDisplayText()+" Lens count: "+this.lensCount;
     }
 }

@@ -26,6 +26,6 @@ public class LaptopSet extends Equipment{
 
     @Override
     public String getDisplayText() {
-        return super.getDisplayText()+" ramGb: "+this.ramGb;
+        return super.getDisplayText()+" RamGb: "+this.ramGb;
     }
 }

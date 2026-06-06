@@ -17,6 +17,6 @@ abstract class Equipment implements Displayable{
 
     @Override
     public String getDisplayText() {
-        return this.name + " id: " + this.id;
+        return "Name: "+this.name + " ID: " + this.id;
     }
 }

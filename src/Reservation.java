@@ -21,6 +21,6 @@ public class Reservation implements Displayable, DiscountPolicy{
 
     @Override
     public String getDisplayText() {
-        return "id: "+this.id+" student: "+this.student+" equipment: "+this.equipment+" status: "+this.status;
+        return "ID: "+this.id+" Student: "+this.student.fullName+" Equipment: "+this.equipment.name+" Status: "+this.status;
     }
 }
